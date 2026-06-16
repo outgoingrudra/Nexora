@@ -1,0 +1,33 @@
+{
+  "name": "users",
+  "version": "1.0.0",
+  "description": "User services - auth , update",
+  "keywords": [
+    "users",
+    "login",
+    "logout"
+  ],
+  "license": "ISC",
+  "author": "Rudra Verma",
+  "type": "module",
+  "main": "server.js",
+  "scripts": {
+    "test": "jest",
+    "dev": "node --watch ./src/server.js",
+    "start": "node ./src/server.js"
+  },
+  "dependencies": {
+    "@prisma/adapter-pg": "^7.8.0",
+    "@prisma/client": "^7.8.0",
+    "dotenv": "^17.4.2",
+    "express": "^5.2.1",
+    "mongoose": "^9.7.0",
+    "pg": "^8.21.0",
+    "prisma": "^7.8.0"
+  },
+  "devDependencies": {
+    "jest": "^30.4.2",
+    "tsx": "^4.22.4",
+    "typescript": "^6.0.3"
+  }
+}
