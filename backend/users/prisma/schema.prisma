@@ -27,7 +27,7 @@ model User {
   headline    String?
   bio         String?
 
-  skills      String[]
+ skills       String[] @default([])
 
   linkedin    String?
   github      String?
